@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	background-color: #67ddac;
+	background-color: #024b2c;
 	color: #fff;
 	padding: 20px;
     text-align: center;
@@ -15,10 +15,12 @@ header h1 {
 	margin: 0;
 }
 ul{
-    background-color: rgb(255, 255, 255);
-    border-radius: 3use0px;
+    background-color: rgb(199, 255, 229);
+    border-radius: 30px;
 }
-
+h2{
+    text-align: center;
+}
 main {
 	padding: 20px;
 }
@@ -80,15 +82,15 @@ section {
     display: table-cell;
     width: 100%;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 3px;
     text-align: center;
     vertical-align: top;
   }
 img {
 	display: block;
 	margin: 0 auto;
-    width: 500px;
-    height: 500px;
+    width: 270px;
+    height: 270px;
 }
 
 h2 {

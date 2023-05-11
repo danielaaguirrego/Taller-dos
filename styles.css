@@ -1,0 +1,99 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #67ddac;
+	color: #fff;
+	padding: 20px;
+    text-align: center;
+
+}
+header h1 {
+	margin: 0;
+}
+ul{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3use0px;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dogs-container {
+	display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+.dog1 {
+    grid-column: 1;
+    grid-row: 1;
+	display: table-cell;
+	width: 25%;
+	border: 1px solid #cccccc;
+	padding: 20px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.dog2 {
+    grid-column: 2;
+    grid-row: 1;
+	display: table-cell;
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	vertical-align: top;
+}
+.dog3 {
+    grid-column: 1;
+    grid-row: 2;
+	display: table-cell;
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	vertical-align: top;
+}
+.dog4 {
+    grid-column: 2;
+    grid-row: 2/ span 1;
+	display: table-cell;
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	vertical-align: top;
+
+} 
+.dog1, .dog2, .dog3, .dog4 {
+    display: table-cell;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+  }
+img {
+	display: block;
+	margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+h2 {
+	margin-top: 0;
+}
+h3{
+    color: rgb(0, 100, 13);
+}
